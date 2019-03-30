@@ -1,6 +1,6 @@
 ## mod_ishttps - reverse proxy / ballancer proxy module which helps set the https header, port and schema when terminating SSL at the proxy level.
 
-This is a strip down version of mod_rpaf which no longer works properly on apache 2.4, however the problem is only related to the IP related, setting https, https_port and https server_scheme still works fine.
+This is a strip down version of mod_rpaf which no longer works properly on apache 2.4, however the problem is only related to the IPs, setting https, https_port and https server_scheme still works fine.
 
 ### Summary
 
