@@ -1,5 +1,7 @@
 ## mod_ishttps - reverse proxy / ballancer proxy module which helps set the https header, port and schema when terminating SSL at the proxy level.
 
+This is a strip down version of mod_rpaf which no longer works properly, however the problem is only related to the IP issues, setting https, https_port and https server_scheme still works fine.
+
 ### Summary
 
 Sets `REQUEST_SCHEME`, `HTTPS`, and `SERVER_PORT` to the values provided by an upstream proxy.
@@ -16,15 +18,15 @@ Sets `REQUEST_SCHEME`, `HTTPS`, and `SERVER_PORT` to the values provided by an u
 
 ### Configuration Directives
 
-    RPAF_Enable             (On|Off)                - Enable reverse proxy add forward
+    ISHTTPS_Enable             (On|Off)                - Enable reverse proxy add forward
 
-    RPAF_SetHTTPS           (On|Off)                - Set the HTTPS environment variable
+    ISHTTPS_SetHTTPS           (On|Off)                - Set the HTTPS environment variable
                                                       to the header value contained in
                                                       X-HTTPS, or X-Forwarded-HTTPS. For
                                                       best results make sure that mod_ssl
                                                       is NOT enabled.
 
-    RPAF_SetPort            (On|Off)                - Set the server port to the header
+    ISHTTPS_SetPort            (On|Off)                - Set the server port to the header
                                                       value contained in X-Port, or
                                                       X-Forwarded-Port. (See Issue #12)
 
