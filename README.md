@@ -28,7 +28,7 @@ Sets `REQUEST_SCHEME`, `HTTPS`, and `SERVER_PORT` to the values provided by an u
                                                       value contained in X-Port, or
                                                       X-Forwarded-Port. (See Issue #12)
 
-TODO
+## TODO
 - Limit changes from specific PROXYIPs only.
 
 ## Example Configuration
