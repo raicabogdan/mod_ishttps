@@ -29,7 +29,7 @@ Sets `REQUEST_SCHEME`, `HTTPS`, and `SERVER_PORT` to the values provided by an u
                                                       X-Forwarded-Port. (See Issue #12)
 
 ## TODO
-- Limit changes from specific PROXYIPs only.
+- Limit changes from specific PROXY IPs only.
 
 ## Example Configuration
 
