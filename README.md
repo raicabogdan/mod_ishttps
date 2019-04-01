@@ -28,7 +28,7 @@ Sets `REQUEST_SCHEME`, `HTTPS`, and `SERVER_PORT` to the values provided by an u
 
     ISHTTPS_SetPort            (On|Off)                - Set the server port to the header
                                                       value contained in X-Port, or
-                                                      X-Forwarded-Port. (See Issue #12)
+                                                      X-Forwarded-Port.
 
 ## TODO
 - Limit changes from specific PROXY IPs only.
